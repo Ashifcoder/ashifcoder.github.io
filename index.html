@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashif Iqubal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="https://linktr.ee/ashifiqubal" target="_blank" > <img src="images/logo.png" class="logo"></a>
+                <ul id="slidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>    
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+            <p>Hello Fri3nd!, I'm</p>
+            <h1>Ashif Iqubal</h1>
+            <h2>Cybersecurity <span id="type-it"></span></h2>
+            <h3>OSCP | OSWP | eJPT | CEH | Content Creator</h3>
+        </div>
+    </div>
+
+<!-- ----------------about------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+            <div class="about-col-1">
+                <img src="images/about.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me  <i class="fa-solid fa-user-secret" style="color: #ffffff;"></i></h1>
+                <ul>
+                    <li>👋 Hello, friend I am an Cyber Security Entusiast, I used to play CTF and do bug bounties in my free time.</li>
+                    <li>🔎 Google <b> "Security Journey With Ashif"</b>.</li>
+                    <li>📕 Actively learning Red Teaming 🔺.</li>
+                    <li>🌟 I'm here to help! If it's within my knowledge, feel free to reach out.</li>
+                    <li>📚 Together, let's share knowledge and grow in cybersecurity community.</li>
+                </ul>
+                <a href="https://linktr.ee/ashifiqubal" target="_blank" class="btn" >Want Free Red Team Home Lab ?</a>
+            </div>
+            </div>
+            <h1 class="sub-title time-title">Certifications & Licence  <i class="fa-regular fa-id-card"></i></h1>    
+        </div>
+        
+        <main>       
+            <p>eLearnSecurity Junior Penetration Tester - Ejpt  <img src="images/certs/ejpt.png" class="cert-icol"></p>
+            <p>Certified Ethical Hacker - CEH  <img src="images/certs/ceh.png" class="cert-icor"></p>
+            <p>Offensive Security Certified Professional - OSCP <img src="images/certs/oscp.png" class="cert-icol"></p>
+            <p>Offensive Security Wireless Professional - OSWP  <img src="images/certs/oswp.png" class="cert-icor"></p>
+        </main>
+    </div>
+
+
+<!-- ----------------services------------------ -->
+
+<div id="skills">
+    <div class="container">
+        <h1 class="sub-title">My Skills  <i class="fa-solid fa-gear-complex" style="color: #ffffff;"></i></h1>
+        <div class="skills-list">
+            <div>
+                <i class="fa-solid fa-earth-americas"></i>
+                <h2>Web Application Pentest</h2>
+                <ul>
+                    <li>OWASP Top 10</li>
+                    <li>Burpsuite</li>
+                    <li>API</li>
+                </ul>
+            </div>
+            <div>
+                <i class="fa-solid fa-server" style="color: #ffffff;"></i>
+                <h2>Network Pentest</h2>
+                <ul>
+                    <li>Active Directory</li>
+                    <li>Living off the land (LOTL)</li>
+                    <li>Red Team</li>
+                </ul>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Languages</h2>
+                <ul>
+                    <li>Python</li>
+                    <li>Bash</li>
+                    <li>Powershell</li>
+                    <li>C/C++</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------------My Blog------------------ -->
+
+<div id="blog">
+    <div class="container">
+        <h1 class="sub-title">My Blogs <i class="fa-solid fa-terminal" style="color: #ffffff;"></i> </h1>
+        <div class="blog-lists">
+            <div>
+                <h2>Suprise!</h2>
+                <a href="#blog" class="btn" onclick="getblog();">Do Not Click!!</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------------Opensource Projects------------------ -->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Open-Source Projects  <i class="fa-solid fa-code" style="color: #ffffff;"></i></h1>
+        <div class="projects-list">
+            <div class="project">
+                <img src="images/proj1.png">
+                <div class="layer">
+                    <h3>Expose Lab</h3>
+                    <p>This is a fully automated Active directory Lab made with the purpose to reduce the hustle of creating it manually.</p>
+                    <a href="https://github.com/Ashifcoder/exposelab" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square" "></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/proj2.png">
+                <div class="layer">
+                    <h3>Mac Mania</h3>
+                    <p>A simple Python based script which can be used to change MAC address.</p>
+                    <a href="https://github.com/Ashifcoder/macMania" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square" "></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/proj3.png">
+                <div class="layer">
+                    <h3>This website!</h3>
+                    <p>Full Source Code</p>
+                    <a href="https://github.com/Ashifcoder/ashifcoder.github.io"><i class="fa-solid fa-arrow-up-right-from-square" "></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Ashifcoder" target="_blank" class="btn" >My Github</a>
+    </div>
+</div>
+
+<!-- ----------------contact------------------ -->
+<div id="contact">
+    <div class="container">
+        <h1> Say Hello! <i class="fa-regular fa-comments" style="color: #ffffff;""></i></i></h1>
+        <div class="check_pwned">
+            <img src="images/con.jpeg">
+            <div class="layer">
+                <h3>';--have i been pwned?</h3>
+                <p>Check if your email or phone is in a data breach</p>
+                <a href="https://haveibeenpwned.com/" target="_blank" ><i class="fa-solid fa-arrow-up-right-from-square" "></i></a>
+            </div>
+
+        </div>
+        <div class="wrapper">
+            <div class="icon twitter">
+                <div class="tooltip">Twitter</div>
+                <a href="https://twitter.com/@ashif1337" target="_blank" ><i class="fa-brands fa-square-twitter" style="color: #ffffff;"></i></a>
+            </div>
+            <div class="icon youtube">
+                <div class="tooltip">Youtube</div>
+                <a href="https://www.youtube.com/@securityjourneywithashif" target="_blank" ><i class="fa-brands fa-square-youtube" style="color: #ffffff;"></i></a>
+            </div>
+            <div class="icon linkedin">
+                <div class="tooltip">Linkedin</div>
+                <a href="https://linkedin.com/in/ashifiqubal" target="_blank" ><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+            </div>
+            <div class="icon github">
+                <div class="tooltip">Github</div>
+                <a href="https://github.com/Ashifcoder" target="_blank" ><i class="fa-brands fa-square-github" style="color: #ffffff;"></i></a>
+            </div>
+            <div class="icon linktree">
+                <div class="tooltip">Linktree</div>
+                <a href="https://linktr.ee/ashifiqubal" target="_blank" ><i class="fa-solid fa-link" style="color: #ffffff;"></i></a>
+            </div>
+        </div>
+    </div>
+
+<div class="copyright">
+        <p>Copyright © Ashif Iqubal Made with <i class="fas fa-heart" style="color: #ff004f;"></i>.</p>
+    </div>
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
