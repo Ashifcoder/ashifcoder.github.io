@@ -1,5 +1,5 @@
 ---
-description: I am an offensive cybersecurity professional passionate about security research and knowledge sharing. Check out my tutorials and YouTube channel for tips, guides and insights into offensive security.
+description: Ashif Iqubal is an Offensive Cyber Security Professional specializing in Red Teaming and Web Penetration Testing. Holding advanced certifications including OSCP , OSEP and CRTO he is dedicated to advancing the field of ethical hacking through open knowledge sharing in the infosec community. 
 
 ---
 <img src="mycerts/certs.png" width="950" height="950">
