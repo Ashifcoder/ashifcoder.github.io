@@ -53,6 +53,9 @@ draft = false
 {{< timelineItem icon="star" header="OffSec Experienced Penetration Tester (OSEP) " badge="osep" subheader="Issued Jul 2024" >}}
 {{< /timelineItem >}}
 
+{{< timelineItem icon="star" header="Web Application Penetration Tester eXtreme ( eWPTX ) " badge="ine" subheader="Issued Feb 2026" >}}
+{{< /timelineItem >}}
+
 
 
 {{< /timeline >}}
