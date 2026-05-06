@@ -56,6 +56,8 @@ draft = false
 {{< timelineItem icon="star" header="Web Application Penetration Tester eXtreme ( eWPTX ) " badge="ine" subheader="Issued Feb 2026" >}}
 {{< /timelineItem >}}
 
+{{< timelineItem icon="star" header="Offsec Web Expert ( OSWE ) " badge="oswe" subheader="Issued May 2026" >}}
+{{< /timelineItem >}}
 
 
 {{< /timeline >}}
