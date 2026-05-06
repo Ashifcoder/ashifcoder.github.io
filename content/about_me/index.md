@@ -5,8 +5,8 @@ draft = false
 +++
 
 - 👋 Hi, I’m  [Ashif Iqubal](https://ashifiqubal.com)
-- 👀 I’m interested in Security Research 👨‍💻
-- 🌱 I’m currently Exploring Red Team Ops🔺
+- 👀 I’m interested in exploring Large Language Models and AI security 🤖
+- 🌱 I’m currently Exploring Security Research 👨‍💻
 - 🌟 I'm here to help! If it's within my knowledge, feel free to reach out.
 - 📚 Together, let's share knowledge and grow in cybersecurity community.
 - 📷 My YouTube [Security Journey With Ashif](https://www.youtube.com/@securityjourneywithashif)
