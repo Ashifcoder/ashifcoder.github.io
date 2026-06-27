@@ -199,7 +199,7 @@ INTIGRITI{019a82cf-ca32-716f-8291-2d0ef30bea32}
 
 ```
 
-If you enjoyed this deep dive there's more content on my YouTube channel [Security Journey With Ashif](https://www.youtube.com/@securityjourneywithashif) 
+If you enjoyed this deep dive there's more content on my YouTube channel [Security Journey With Ashif](https://www.youtube.com/@ashif1337) 
 
 {{< typeit tag=h3 lifeLike=true >}}
 Q1RGe1N0YXlfY3VyaW91c18mX2tlZXBfaGFja2luZyF9
